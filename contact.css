@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Caveat&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Oswald:wght@300&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #1D1D1D;
+}
+
+
+/* nav bar start  */
+
+
+nav
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav h1
+{
+    color: white;
+    margin-right: auto;
+    font-family: "poppins";
+    text-transform: uppercase;
+    padding: 0px 80px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+nav ul li
+{
+    display: inline;
+    margin: 40px;
+}
+
+ul button
+{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-family: poppins;
+    text-transform: capitalize;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul button:hover
+{
+    color: #EC7969;
+    transition: 1s;
+}
+
+nav h1:hover
+{
+    color: #EC7969;
+    transition: 1s;
+}
+
+.nav2
+{
+    width: 70px;
+    height: 90vh;
+    position: fixed;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 a
+{
+    font-size: 24px;
+    color: white;
+}
+
+.nav2 ul li
+{
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.active
+{
+    color: #EC7969;
+}
+
+.nav2 ul li a:hover
+{
+    color: #EC7969;
+    transition: 1s;
+}
+
+footer
+{
+    color: white;
+}
+
+/* nav bar ends  */
+
+
+/* content start here */
+
+.about1
+{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EC7969;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.back
+{
+    width: 90%;
+    height: 800px;
+    background-color: #262626;
+    margin: auto;
+    margin-top: 100px;
+}
+
+table
+{
+    width: 65%;
+    height: 450px;
+    margin: auto;
+}
+
+td
+{
+    margin: auto;
+}
+
+.white
+{
+    color: white;
+    font-size: 18px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.org
+{
+    color: white;
+    font-size: 18px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.org h2
+{
+    font-size: 35px;
+    color: #EC7969;
+}
+
+table a
+{
+    color: white;
+}
+
+.pink
+{
+    width: 65%;
+    height: 280px;
+    background-color: #EC7969;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.sub
+{
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    font-family: poppins;
+}
+
+.inp
+{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 40px;
+}
+
+input
+{
+    width: 65%;
+    height: 50px;
+    margin: 30px 25px 0px 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.subs
+{
+    width: 120px;
+    height: 50px;
+    margin-left: 20PX;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: poppins;
+    font-size: 15px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+.subs:hover
+{
+    border: 2px solid black;
+    background-color: #EC7969;
+    color: black;
+}
+
+.back a:hover
+{
+    color: #EC7969;
+}

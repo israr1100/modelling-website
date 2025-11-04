@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Caveat&family=Edu+TAS+Beginner:wght@400;500;600;700&family=Oswald:wght@300&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;1,100&family=Rajdhani:wght@300&family=Roboto:wght@100&family=Satisfy&family=Shadows+Into+Light&family=Zeyada&display=swap');
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    width: 100%;
+    height: 1800px;
+    background-color: #1D1D1D;
+}
+
+
+/* nav bar start  */
+
+
+nav
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav h1
+{
+    color: white;
+    margin-right: auto;
+    font-family: "poppins";
+    text-transform: uppercase;
+    padding: 0px 80px;
+    font-size: 30px;
+    cursor: pointer;
+}
+nav ul li
+{
+    display: inline;
+    margin: 40px;
+}
+ul button
+{
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    font-family: poppins;
+    text-transform: capitalize;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+ul button:hover
+{
+    color: #EC7969;
+    transition: 1s;
+}
+nav h1:hover
+{
+    color: #EC7969;
+    transition: 1s;
+}
+.nav2
+{
+    width: 70px;
+    height: 90vh;
+    position: fixed;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2 a
+{
+    font-size: 24px;
+    color: white;
+}
+.nav2 ul li
+{
+    list-style: none;
+    padding: 20px 0px;
+}
+.active
+{
+    color: #EC7969;
+}
+.nav2 ul li a:hover
+{
+    color: #EC7969;
+    transition: 1s;
+}
+footer
+{
+    color: white;
+    width: fit-content;
+    
+    margin: auto;
+    position: relative;
+    top: 127PX;
+    right: 562px;
+}
+
+/* nav bar ends  */
+
+
+/* content start here */
+
+.apply
+{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EC7969;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.back
+{
+    width: 90%;
+    height: fit-content;
+    background-color: #262626;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+table
+{
+    width: 45%;
+    height: 100%;
+}
+.back h1
+{
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 800;
+    color: #EC7969;
+}
+.back p
+{
+    font-family: poppins;
+    color: white;
+    font-size: 15px;
+}
+.t2
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pink
+{
+    width: 70%;
+    height: 500px;
+    background-color: #EC7969;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.pink h1
+{
+    color: black;
+}
+.pink table
+{
+    width: 70%;
+    height: 100%;
+}
